@@ -25,5 +25,12 @@ python -m ipykernel install --user --name=fegrow_al_data
 jupyter notebook
 ```
 
-and select the file `plots.ipynb`.
+and open the notebook file `plots.ipynb`.
 
+### Description of data:
+
+The file `cs_49k.csv` contains the SMILES and predicted affinity of the oracle dataset. 
+
+The folders `rep_*` contain five replicas of active learning hyperparameter tuning. For each experiment, folders contain SMILES and predicted affinity of compounds selected at each active learning cycle.
+
+The same information is provided for the four prospective runs in the folders `mpro-*`, for the four different objective functions used.
